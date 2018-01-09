@@ -1,0 +1,132 @@
+<div class="checkout-content">
+    <div class="checkout-container">
+        <h1 class="checkout-close"><span id="cancel-order" class="checkout-close-button">X</span></h1>
+        <div id="checkout-checkout" class="checkout-sub-container">
+            <h1 class="checkout-title">CHECKOUT</h1>
+            <div id="checkout-items" class="checkout-items">
+            </div>
+            <div class="checkout-info">
+                <div class="checkout-info-subtotal">
+                    <div class="checkout-info-section">
+                        <h1 class="checkout-subtotal-label">SUBTOTAL</h1>
+                        <h1 id="checkout-subtotal" class="checkout-subtotal-value">$57.76</h1>
+                    </div>
+                </div>
+                <div class="checkout-info-checkout">
+                    <h1 id="continue-to-shipping" class="checkout-info-checkout-text">CHECK OUT</h1>
+                </div>
+                <div class="checkout-info-cancel">
+                    <h1 id="continue-shopping" class="checkout-info-cancel-text">CONTINUE<br>SHOPPING</h1>
+                </div>
+            </div>
+        </div>
+        <div id="checkout-shipping" class="checkout-sub-container">
+            <h1 class="checkout-title">SHIPPING INFORMATION</h1>
+            <form class="information-content">
+                <div class="information-spacer-split">
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input shipping-input" id="first-name" name="first-name" required='' type='text'>
+                        <label class="information-input-label" alt='FIRST NAME'></label>
+                    </div>
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input shipping-input" id="last-name" name="last-name" required='' type='text'>
+                        <label class="information-input-label" alt='LAST NAME'></label>
+                    </div>
+                </div>
+                <div class="information-spacer-single">
+                    <div class="information-spacer-single-child">
+                        <input class="information-input-input shipping-input" id="address-line-1" name="address-line-1" required='' type='text'>
+                        <label class="information-input-label" alt='ADDRESS LINE 1'></label>
+                    </div>
+                </div>
+                <div class="information-spacer-single">
+                    <div class="information-spacer-single-child">
+                        <input class="information-input-input shipping-input" id="address-line-2" name="address-line-2" required='' type='text'>
+                        <label class="information-input-label" alt='ADDRESS LINE 2'></label>
+                    </div>
+                </div>
+                <div class="information-spacer-split">
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input shipping-input" id="city" name="city" required='' type='text'>
+                        <label class="information-input-label" alt='CITY'></label>
+                    </div>
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input shipping-input" id="state" name="state" required='' type='text'>
+                        <label class="information-input-label" alt='STATE'></label>
+                    </div>
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input shipping-input" id="zipcode" name="zipcode" required='' type='text'>
+                        <label class="information-input-label" alt='ZIP'></label>
+                    </div>
+                </div>
+                <div class="information-spacer-single">
+                    <div class="information-spacer-single-child">
+                        <input class="information-input-input shipping-input" id="email" name="email" required='' type='text'>
+                        <label class="information-input-label" alt='EMAIL'></label>
+                    </div>
+                </div>
+            </form>
+            <h1 class="checkout-continue"><span id="back-to-checkout">GO BACK</span>&nbsp;&nbsp;&nbsp;<span id="continue-to-billing">CONTINUE</span></h1>
+        </div>
+        <div id="checkout-billing" class="checkout-sub-container">
+            <h1 class="checkout-title">BILLING INFORMATION</h1>
+            <form class="information-content">
+                <div class="information-spacer-single">
+                    <div class="information-spacer-single-child">
+                        <input class="information-input-input" id="credit-card-name" name="credit-card-name" required='' type='text'>
+                        <label class="information-input-label" alt='NAME ON CARD'></label>
+                    </div>
+                </div>
+                <div class="information-spacer-single">
+                    <div class="information-spacer-single-child">
+                        <input class="information-input-input" id="credit-card-number" name="credit-card-number" required='' type='text'>
+                        <label class="information-input-label" alt='CARD NUMBER'></label>
+                    </div>
+                </div>
+                <div class="information-spacer-split">
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input" id="credit-card-cvc" name="credit-card-cvc" required='' type='text'>
+                        <label class="information-input-label" alt='CVC'></label>
+                    </div>
+                    <div class="information-spacer-split-child">
+                        <input class="information-input-input" id="credit-card-expiry" name="credit-card-expiry" required='' type='text'>
+                        <label class="information-input-label" alt='MM/YY'></label>
+                    </div>
+                </div>
+            </form>
+            <form class="information-content-spacer">
+            </form>
+            <h1 class="checkout-continue"><span id="back-to-shipping">GO BACK</span>&nbsp;&nbsp;&nbsp;<span id="continue-to-confirmation">CONTINUE</span></h1>
+        </div>
+        <div id="checkout-confirmation" class="checkout-sub-container">
+            <h1 class="checkout-title">CONFIRMATION</h1>
+            <div id="confirmation-items" class="checkout-items">
+            </div>
+            <div class="checkout-info">
+                <div class="checkout-info-subtotal">
+                    <div class="checkout-info-section">
+                        <h1 class="checkout-subtotal-label">SUBTOTAL</h1>
+                        <h1 id="confirmation-subtotal" class="checkout-subtotal-value">...</h1>
+                    </div>
+                    <div class="checkout-info-section">
+                        <h1 class="checkout-subtotal-label">SHIPPING</h1>
+                        <h1 id="confirmation-shipping" class="checkout-subtotal-value">...</h1>
+                    </div>
+                    <div class="checkout-info-section">
+                        <h1 class="checkout-subtotal-label">TAX</h1>
+                        <h1 id="confirmation-tax" class="checkout-subtotal-value">...</h1>
+                    </div>
+                </div>
+                <div class="checkout-info-total">
+                    <div class="checkout-info-section">
+                        <h1 class="checkout-subtotal-label">TOTAL</h1>
+                        <h1 id="confirmation-total" class="checkout-subtotal-value">...</h1>
+                    </div>
+                </div>
+                <div class="checkout-info-checkout">
+                    <h1 class="checkout-continue"><span id="back-to-billing">GO BACK</span>&nbsp;&nbsp;&nbsp;<span id="place-order">PLACE ORDER</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
